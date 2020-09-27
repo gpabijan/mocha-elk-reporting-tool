@@ -1,6 +1,6 @@
 {
   "name": "mocha-elk-reporting-tool",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Reporter for pushing mocha test results data to ELK",
   "main": "index.js",
   "scripts": {

@@ -106,7 +106,7 @@ module.exports = function sendTestResults(testResultsLog, done) {
 
     var hostname = repoConfig.elasticSearchHost
 
-    var esClient = elasticsearch.Client({
+    var esClient = new elasticsearch.Client({
       log: currentLogLevel,
       requestTimeout: currentTimeout,
       node: hostname,
